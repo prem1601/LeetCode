@@ -3,9 +3,14 @@
  * @return {void} Do not return anything, modify s in-place instead.
  */
 var reverseString = function(s) {
-    const tempString = [...s]
-    const till = s.length - 1;
-    for(let i=0; i <= till; i++) {
-        s[i] = tempString[till - i]
+    let start = 0;
+    let end = s.length - 1;
+    while(start < end) {
+        const temp = s[start];
+        s[start] = s[end];
+        s[end] = temp;
+
+        start++;
+        end--;
     }
 };
