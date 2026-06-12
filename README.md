@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/prem1601/LeetCode/tree/master/0070-climbing-stairs) |
 | [0412-fizz-buzz](https://github.com/prem1601/LeetCode/tree/master/0412-fizz-buzz) |
 ## String
 |  |
@@ -21,4 +22,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/prem1601/LeetCode/tree/master/0001-two-sum) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/prem1601/LeetCode/tree/master/0070-climbing-stairs) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/prem1601/LeetCode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
