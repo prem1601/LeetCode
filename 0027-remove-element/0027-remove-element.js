@@ -8,21 +8,12 @@ var removeElement = function(nums, val) {
     // const tempMap = {};
 
     for(let i = 0; i < nums.length; i++) {
-       if(nums[i] !== val) {
-            nums[k] = nums[i];
+        const num = nums[i]
+       if(num !== val) {
+            nums[k] = num;
             k++;
-            // if(!isNaN(tempMap[nums[i]])) tempMap[nums[i]]++;
-            // else tempMap[nums[i]] = 1
         }
     }
-
-    // let scope = 0
-    // for(const [key, value] of Object.entries(tempMap)) {
-    //     for(let i = 0; i < value; i++) {
-    //         nums[scope] = Number(key)
-    //         scope++
-    //     }
-    // }l
 
     return k;
 };
