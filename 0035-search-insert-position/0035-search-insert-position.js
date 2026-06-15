@@ -44,7 +44,6 @@ var searchInsert = function(nums, target) {
         if (target === nums[half]) return half;
         else if (target > nums[half]) min = half + 1;
         else max = half - 1;
-
     }
 
     return min;
